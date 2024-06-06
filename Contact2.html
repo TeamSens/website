@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Formulaires</title>
+    <style>
+        body{
+            background-color: gold;
+        }
+        table{
+            text-align: left
+        }
+    </style>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body style="background-color: gold">
+    <ul>
+    <li> <a href="moto.html">Moto</a></li>
+            <li><a href="Voiture.html">Voitures</a> </li>
+            <li> <a href="boutique.html">Acceuil </a> </li>
+             </ul>
+<h1> Formulaire de contact</h1>
+    <table>
+ <form>
+        <label for="prenom">Prénom</label>
+        <input type="text" id="prenom" name="prenom">
+     <br>
+
+        <label for="nom">Nom</label>
+        <input type="text" id="nom" name="nom">
+     <br>
+
+        <label for="dateNaissance">Date de naissance</label>
+        <input type="date" id="dateNaissance" name="dateNaissance">
+<br>
+        <label for="newsletter">Je veux recevoir la newsletter</label>
+        <input type="checkbox" id="newsletter" name="newsletter">
+<br>
+        <label for="commentaire">Commentaire</label>
+        <textarea id="commentaire" name="commentaire" rows="4"></textarea>
+<br>
+        <button type="button" onclick="displayFormData()">Envoyer</button>
+    </form>
+    </table>
+</body>
+</html>
